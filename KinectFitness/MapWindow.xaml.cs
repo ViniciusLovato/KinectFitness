@@ -15,27 +15,40 @@ using System.Windows.Shapes;
 namespace KinectFitness
 {
     /// <summary>
-    /// Interaction logic for StartupWindow.xaml
+    /// Interaction logic for MapWindow.xaml
     /// </summary>
-    public partial class StartupWindow : Page
+    public partial class MapWindow : Page
     {
-        public StartupWindow()
+        public MapWindow()
         {
             InitializeComponent();
         }
 
+        private void Canvas_Loaded(object sender, RoutedEventArgs e)
+        {
+            
+             
+        }
+
+
         private void Button_Play(object sender, RoutedEventArgs e)
         {
-            // View Expense Report
-            //KinectWindow kw = new KinectWindow();
-            //this.NavigationService.Navigate(kw);
-            MapWindow mp = new MapWindow();
-            this.NavigationService.Navigate(mp);
+            StartupWindow sw = new StartupWindow();
+            this.NavigationService.Navigate(sw);
         }
 
-        private void Button_Options(object sender, RoutedEventArgs e)
-        {
 
-        }
+
+        
     }
+
+
+
+
+
+
+
+
+
+
 }

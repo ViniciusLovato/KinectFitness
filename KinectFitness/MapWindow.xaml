@@ -1,0 +1,36 @@
+﻿<Page x:Class="KinectFitness.MapWindow"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d"
+	Title="MapWindow" Height="317" Width="555">
+    <Canvas HorizontalAlignment="Left" Height="297" Margin="10,10,0,0" VerticalAlignment="Top" Width="535" Loaded="Canvas_Loaded">
+        <Image x:Name="map2" Height="50" Canvas.Left="169" Canvas.Top="51" Width="67"
+               Source="C:\Users\Vinicius Lovato\Documents\GitHub\KinectFitness\KinectFitness\canada_640.png"/>
+        <Image x:Name="map1" Height="50" Canvas.Left="61" Canvas.Top="51" Width="67"
+        	Source="C:\Users\Vinicius Lovato\Documents\GitHub\KinectFitness\KinectFitness\canada_640.png"/>
+        <Image x:Name="map6" Height="50" Canvas.Left="169" Canvas.Top="157" Width="67"
+        	Source="C:\Users\Vinicius Lovato\Documents\GitHub\KinectFitness\KinectFitness\canada_640.png"/>
+        <Image x:Name="map9" Height="50" Canvas.Left="420" Canvas.Top="157" Width="67"
+        	Source="C:\Users\Vinicius Lovato\Documents\GitHub\KinectFitness\KinectFitness\canada_640.png"/>
+        <Image x:Name="map8" Height="50" Canvas.Left="299" Canvas.Top="157" Width="67"
+        	Source="C:\Users\Vinicius Lovato\Documents\GitHub\KinectFitness\KinectFitness\canada_640.png"/>
+        <Image x:Name="map4" Height="50" Canvas.Left="420" Canvas.Top="51" Width="67"
+        	Source="C:\Users\Vinicius Lovato\Documents\GitHub\KinectFitness\KinectFitness\canada_640.png"/>
+        <Image x:Name="map3" Height="50" Canvas.Left="299" Canvas.Top="51" Width="67"
+        	Source="C:\Users\Vinicius Lovato\Documents\GitHub\KinectFitness\KinectFitness\canada_640.png" RenderTransformOrigin="0.018,0.87"/>
+        <Image x:Name="map5" Height="50" Canvas.Left="61" Canvas.Top="157" Width="67"
+        	Source="C:\Users\Vinicius Lovato\Documents\GitHub\KinectFitness\KinectFitness\canada_640.png"/>
+        <Label Content="Choose a map&#xD;&#xA;" Canvas.Left="225" Canvas.Top="10"/>
+        <Label Content="Label" Canvas.Left="75" Canvas.Top="207"/>
+        <Label Content="Label" Canvas.Left="183" Canvas.Top="207" RenderTransformOrigin="0.342,0.385"/>
+        <Label Content="Label" Canvas.Left="314" Canvas.Top="207" RenderTransformOrigin="0.658,2"/>
+        <Label Content="Label" Canvas.Left="435" Canvas.Top="212" RenderTransformOrigin="5.368,8.5"/>
+        <Label Content="Label" Canvas.Left="435" Canvas.Top="106"/>
+        <Label Content="Label" Canvas.Left="314" Canvas.Top="106"/>
+        <Label Content="Label" Canvas.Left="183" Canvas.Top="106"/>
+        <Label Content="Label" Canvas.Left="75" Canvas.Top="106" RenderTransformOrigin="-4.421,4.423"/>
+        <Button Width="112" HorizontalAlignment="Right" Click="Button_Play" Padding="0" Background="#FF1CB841" BorderBrush="White" Foreground="White" FontFamily="Arial" FontWeight="Bold" FontSize="20" BorderThickness="0" ClickMode="Release" Height="34" VerticalAlignment="Top" Content="Back" Canvas.Left="209" Canvas.Top="253"/>
+    </Canvas>
+</Page>
